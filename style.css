@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Dancing Script', cursive;
+  
+  /*background-image: url(computer.jpg);
+  background-size: cover;*/
+  background: url(computer.jpg) no-repeat center center fixed; /*SHORTHAND PROPERTY from perfect full pg background img*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+ 
+  font-size: 5.28rem;
+  /*position:fixed ;
+  top:2em;
+  left:250px;*/
+  color: beige;
+}
+.spacing{
+  height: 160px;
+}
+hr{
+  width:50px;
+  border:0.5px solid rgb(219, 64, 64); 
+}
+
+.btn{
+  /*position: fixed;
+  left:550px;
+  top: 380px;*/
+  font-weight:900px;
+  border-radius:40px;
+}
+.btn-info{
+  background-color:rgb(219, 64, 64) ;
+  border:0px solid rgb(219, 64, 64);
+}
+.btn-info:hover{
+  background-color: rgb(2, 2, 49);
+  border:4px solid rgb(2, 2, 49);
+}
+.sao-btn-xl{
+  padding: 8px 55px;;
+}
